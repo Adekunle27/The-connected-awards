@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link href = "./font/pulp/stylesheet.css" rel = "stylesheet" type = "text/css" />
+</head>
+<body>
+    <nav>
+        <div class="container nav__container">
+            <div class="left">
+                <img src="./Vector.jpg" alt="">
+                <h4>The Connected Award</h4>
+            </div>
+            <div class="middle">
+                <ul class="links">
+                    <li><a href="#">Categories</a></li>
+                    <li><a href="#">Past editions</a></li>
+                    <li><a href="#">Future editions</a></li>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Make a donation</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <a href="#" class="login">Log In</a>
+                <a href="#" class="create">Create Account</a>
+            </div>
+        </div>
+    </nav>
+    
+    <script>
+        window.addEventListener('scroll', () => {
+    document.querySelector('nav').classList.toggle('window-scroll', window.scrollY > 0)
+})
+    </script>
+</body>
+</html>
