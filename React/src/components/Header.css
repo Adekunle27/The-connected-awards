@@ -1,0 +1,41 @@
+.inside {
+  padding: 13px;
+}
+input {
+  font-family: "Pulp Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  width: 40rem;
+  text-align: left;
+  margin-right: 0.5rem;
+  letter-spacing: -0.04em;
+  outline: 0;
+  border-radius: 0.5rem;
+}
+
+header {
+  margin-top: 275px;
+  margin-bottom: 45px;
+  height: 60vh;
+}
+
+.header__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.header__container h1 {
+  font-family: "Pulp Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 96px;
+  line-height: 115px;
+  text-align: center;
+  letter-spacing: -0.06em;
+
+  color: #0c0114;
+}

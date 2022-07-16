@@ -1,0 +1,124 @@
+.awards {
+  margin-top: 3rem;
+  color: #f5f5f5;
+}
+
+.awards___container {
+  display: flex;
+  gap: 4rem;
+  position: relative;
+}
+
+.awards___container .left img {
+  width: 550px;
+  height: 490px;
+  margin: 80px;
+}
+
+.awards___container .right {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  padding-top: 80px;
+  align-items: flex-start;
+}
+
+.awards___container .right h3 {
+  font-family: "Pulp Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -0.06em;
+  justify-content: flex-start;
+  color: #0c0114;
+}
+
+.awards___container .right p {
+  font-family: "Pulp Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0c0114;
+  padding: 3rem 0 3rem 0;
+}
+
+.awards___container .right .btn {
+  padding: 16px 24px;
+  margin-left: 0;
+  justify-self: flex-start;
+}
+
+.first {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.second {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.techies__first {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.techies__second {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.techies {
+  color: #ead4d4;
+}
+
+.techies___container {
+  display: flex;
+  gap: 4rem;
+  position: relative;
+}
+
+.techies__left {
+  padding: 80px;
+}
+.techies__left h3 {
+  font-family: "Pulp Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 43px;
+  letter-spacing: -0.06em;
+  justify-content: flex-start;
+  color: #0c0114;
+}
+
+.techies__left p {
+  font-family: "Pulp Display";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0c0114;
+  padding: 3rem 0 3rem 0;
+}
+
+.techies__right img {
+  width: 290px;
+  height: 275px;
+}
+
+.techies__right {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 80px;
+  gap: 3rem;
+}
+
+.achievement__container {
+  margin-top: 1rem;
+}
